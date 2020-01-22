@@ -7,7 +7,6 @@ let selection = arr => {
         }
         if(arr[min] < arr[i]) [arr[min], arr[i]] = [arr[i], arr[min]];
     }
-    // console.log(arr);
     return arr;
 }
 

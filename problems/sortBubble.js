@@ -13,7 +13,6 @@
 const bubble = arr => {
     let noSwap;
     for (let i = 1; i < arr.length; i +=1 ) {
-        console.log(1)
         noSwap = true;
         for(let j = 0; j < arr.length - i; j += 1) {
             if (arr[j] > arr[j+1]) {
